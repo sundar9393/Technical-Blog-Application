@@ -35,4 +35,16 @@ public class BlogPostService {
 
         return posts;
     }
+
+    public ArrayList<BlogPost> getUserPosts(){
+        ArrayList<BlogPost> posts = new ArrayList<>();
+
+        BlogPost post3 = new BlogPost();
+        post3.setTitle("This is your post");
+        post3.setBody("This can have some useful content");
+        post3.setDate(new Date());
+
+        posts.add(post3);
+        return posts;
+    }
 }
