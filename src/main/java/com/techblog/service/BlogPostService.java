@@ -47,4 +47,8 @@ public class BlogPostService {
         posts.add(post3);
         return posts;
     }
+
+    public void createPost(BlogPost post){
+
+    }
 }
